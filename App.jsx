@@ -866,13 +866,7 @@ function SiteFooter({ onNavigate }) {
               </div>
             </div>
             <p className="text-[12.5px] text-slate-400 leading-relaxed max-w-sm">Independent planning tools for Australian 4WD, camping and off-grid 12V systems.</p>
-            {(SITE.facebook || SITE.instagram || SITE.youtube) && (
-              <div className="flex gap-2 mt-4">
-                {[["facebook", Facebook, "Facebook"], ["instagram", Instagram, "Instagram"], ["youtube", Youtube, "YouTube"]]
-                  .filter(([k]) => SITE[k])
-                  .map(([k, Icon, label]) => (
-                    <a key={k} href={SITE[k]} target="_blank" rel="noopener noreferrer" aria-label={label}
-                      className="w-9 h-9 rounded-lg border border-slate-700 flex items-center justify-center text-slate-400 hover:text-amber-400 hover:border-amber-500/40 transition-colors"><Icon size={15}/></a>
+            {
                   ))}
               </div>
             )}
