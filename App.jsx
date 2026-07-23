@@ -866,10 +866,6 @@ function SiteFooter({ onNavigate }) {
               </div>
             </div>
             <p className="text-[12.5px] text-slate-400 leading-relaxed max-w-sm">Independent planning tools for Australian 4WD, camping and off-grid 12V systems.</p>
-            {
-                  ))}
-              </div>
-            )}
           </div>
           <div>
             <div className="text-[11px] uppercase tracking-wide text-slate-300 font-semibold mb-3">Support</div>
