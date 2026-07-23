@@ -3,7 +3,7 @@ import {
   Battery, Sun, Zap, Refrigerator, Lightbulb, Droplets, Flame, Coffee,
   HeartPulse, Wifi, Smartphone, Laptop, Wind, Plus, Minus, Info, CheckCircle2, AlertTriangle,
   Tablet, Camera, Fan, Tv, Thermometer, Microwave, Utensils, Wrench, Snowflake,
-  Car, CloudRain, RotateCcw, Star, Sofa, ChevronRight, ArrowRight, Lock, ListChecks, Mail, ShieldCheck, FileText, HelpCircle, MapPin, Instagram, Youtube, Facebook,
+  Car, CloudRain, RotateCcw, Star, Sofa, ChevronRight, ArrowRight, Lock, ListChecks, Mail, ShieldCheck, FileText, HelpCircle, MapPin,
 } from "lucide-react";
 import {
   BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer,
